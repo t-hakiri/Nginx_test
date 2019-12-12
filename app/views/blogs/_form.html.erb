@@ -11,6 +11,17 @@
     </div>
   <% end %>
 
+
+  <ul class="field">
+    <li><%= form.label :title %></li>
+    <li><%= form.text_field :title %></li>
+  </ul>
+
+  <ul class="field">
+    <li><%= form.label :content %></li>
+    <li><%= form.text_field :content %></li>
+  </ul>
+
   <div class="actions">
     <%= form.submit %>
   </div>
